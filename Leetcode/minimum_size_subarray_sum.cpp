@@ -7,7 +7,7 @@ class Solution{
 };
 
 int Solution::minSubArrayLen(int s, std::vector<int> &nums){
-    for(auto i{0} ; i<nums.length() ; i++){
+    for(auto i{0} ; i<nums.size() ; i++){
         if(s <= nums[i]+nums[i+1]){
             
         }
